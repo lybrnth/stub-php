@@ -1,0 +1,16 @@
+{
+    "name": "lybrnth/stub-php",
+    "description": "Stub composer php project",
+    "type": "library",
+    "keywords": ["lybrnth", "composer","php","stub"],
+    "homepage": "https://github.com/lybrnth/stub-php",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lybrnth\\": "src/"
+        }
+    }
+}
